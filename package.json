@@ -1,0 +1,31 @@
+{
+  "name": "muztahid-life",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Muztahid Life অ্যাপটি একটি ইলেকট্রন ভিত্তিক অ্যাপ যা আপনার দৈনন্দিন রুটিন পরিচালনা করতে সাহায্য করবে।",
+  "author": "Nihal",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.muztahidlife",
+    "productName": "Muztahid Life",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icons/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icons/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icons/icon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12"
+  }
+}
