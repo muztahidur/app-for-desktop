@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.muztahidlife
+productName: Muztahid Life
+win:
+  target: nsis
+  icon: assets/icons/icon.ico
+mac:
+  icon: assets/icons/icon.icns
+linux:
+  icon: assets/icons/icon.png
+files: []
+electronVersion: 35.2.1
